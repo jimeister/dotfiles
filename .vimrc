@@ -8,6 +8,7 @@ set shiftwidth=4
 set smartindent
 set autoindent
 set cindent
+set expandtab
 
 set showmatch
 set showcmd
