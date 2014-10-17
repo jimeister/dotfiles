@@ -19,6 +19,7 @@ syntax on
 colorscheme tomorrow-night
 set nu
 set laststatus=2
+set backspace=indent,eol,start
 
 set tabstop=4
 set softtabstop=4
