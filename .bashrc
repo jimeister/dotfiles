@@ -11,5 +11,3 @@ export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 export JAVA_OPTS="-Djava.awt.headless=true"
 export VISUAL="/usr/local/bin/vim"
-
-PS1='\[\e[0;34m\]\u\[\e[0;39m\]@\[\e[0;32m\]\h\[\e[0;39m\]:\[\e[0;33m\]\w\[\e[0;39m\]$(__git_ps1 " \[\e[0;36m\](%s)\[\e[0;39m\] ")$ '
