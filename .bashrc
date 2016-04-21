@@ -2,6 +2,7 @@ alias ll="ls -larth"
 alias mv="mv -iv"
 alias cp="cp -iv"
 alias rm="rm -iv"
+alias dutc='date -u +"%Y-%m-%dT%H:%M:%SZ"'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
