@@ -9,14 +9,15 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
-Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'derekwyatt/vim-scala'
 
 call vundle#end()
 filetype plugin indent on
 
 syntax on
-colorscheme tomorrow-night
+set background=dark
+colorscheme solarized
 set nu
 set laststatus=2
 set backspace=indent,eol,start
