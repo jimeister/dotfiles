@@ -1,21 +1,14 @@
 set nocompatible
-filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-fugitive'
+Plug 'bling/vim-airline'
+Plug 'scrooloose/syntastic'
+Plug 'altercation/vim-colors-solarized'
+Plug 'derekwyatt/vim-scala'
+call plug#end()
 
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
-Plugin 'scrooloose/syntastic'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'derekwyatt/vim-scala'
-
-call vundle#end()
-filetype plugin indent on
-
-syntax on
+syntax enable
 set background=dark
 colorscheme solarized
 set nu
