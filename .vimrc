@@ -2,8 +2,9 @@ set nocompatible
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-fugitive'
-Plug 'bling/vim-airline'
-Plug 'scrooloose/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-syntastic/syntastic'
 Plug 'altercation/vim-colors-solarized'
 Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-rails'
@@ -39,3 +40,4 @@ set showcmd
 set hlsearch
 set incsearch
 set ignorecase
+set smartcase
