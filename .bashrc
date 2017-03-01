@@ -16,3 +16,8 @@ export MANPATH="/usr/local/opt/gnu-tar/libexec/gnuman:$MANPATH"
 export JAVA_OPTS="-Djava.awt.headless=true"
 export VISUAL="/usr/local/bin/vim"
 export HISTCONTROL=ignoreboth:erasedups
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+source /usr/local/bin/virtualenvwrapper.sh
