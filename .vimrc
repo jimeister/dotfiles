@@ -9,6 +9,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 if has('autocmd')
@@ -20,10 +21,11 @@ endif
 
 set background=dark
 colorscheme solarized
-set nu
+set number
 set laststatus=2
 set backspace=indent,eol,start
 set ruler
+set mouse=a
 
 set tabstop=2
 set softtabstop=2
@@ -41,3 +43,8 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
