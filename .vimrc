@@ -10,6 +10,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'christoomey/vim-tmux-navigator'
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 call plug#end()
 
 if has('autocmd')
