@@ -26,7 +26,6 @@ set number
 set laststatus=2
 set backspace=indent,eol,start
 set ruler
-set mouse=a
 
 set tabstop=2
 set softtabstop=2
