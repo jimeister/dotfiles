@@ -13,7 +13,6 @@ export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
 export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/gnu-tar/libexec/gnuman:$MANPATH"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export JAVA_OPTS="-Djava.awt.headless=true"
 export VISUAL="/usr/local/bin/vim"
 export HISTCONTROL=ignoreboth:erasedups
